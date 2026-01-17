@@ -1,0 +1,5 @@
+fd = open("sample.txt","w")
+contents = fd.write("09876543211234567890")
+print(contents)
+print(type(contents)) 
+fd.close()    

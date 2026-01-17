@@ -1,0 +1,5 @@
+fd = open("sample.txt", "r")
+contents = fd.read()
+print(contents)
+print(type(contents))
+fd.close()

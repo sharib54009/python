@@ -1,0 +1,16 @@
+a = 10
+b = 12.5
+c = "Python"
+d = True
+e = [1, 2, 3]
+f = (4, 5, 6)
+g = {7, 8, 9}
+h = {'name': 'John', 'age': 20}
+print("a =", a, "| Type:", type(a))
+print("b =", b, "| Type:", type(b))
+print("c =", c, "| Type:", type(c))
+print("d =", d, "| Type:", type(d))
+print("e =", e, "| Type:", type(e))
+print("f =", f, "| Type:", type(f))
+print("g =", g, "| Type:", type(g))
+print("h =", h, "| Type:", type(h))

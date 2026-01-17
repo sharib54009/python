@@ -1,0 +1,10 @@
+import numpy as np
+arr = np.array([1, 2, 3, 4, 5, 6])
+mean = np.mean(arr)
+std = np.std(arr)
+min = np.min(arr)
+max = np.max(arr)
+print("Mean:", mean)
+print("Standard Deviation:", std)
+print("Minimum:", min)
+print("Maximum:", max)
