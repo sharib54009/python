@@ -10,3 +10,10 @@ def twoSum(nums, target):
 
         seen[num] = i
         print(f"Seen dict updated: {seen}")
+
+nums = [1, 5, 3, 8, 15]
+target = 9
+
+result = twoSum(nums, target)
+print(result)
+
